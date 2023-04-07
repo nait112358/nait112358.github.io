@@ -1,0 +1,75 @@
+.navbar {
+    background-image: url(../img/fondo.jpg);
+    background-size: auto 200%;
+
+    /* Workaround for some mobile browsers */
+    min-height: 100%;
+  }
+  header p {
+      text-decoration: overline;
+  }
+
+  main img {
+    height:250px;
+}
+
+dialog img {
+  height: 500px;
+
+}
+
+dialog p {
+  font-size: 1rem;
+}
+#about2 {
+  max-width: 350px;
+  
+}
+#about1 {
+  max-width: 600px;
+  
+}
+dialog {  
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+}
+h3 {
+  text-align: center;
+}
+footer {
+  background-image: url(../img/fondo.jpg);
+  background-size:contain;
+  background-position: center;
+  background-color: black;
+  
+
+
+  /* Workaround for some mobile browsers */
+  min-height: 100%;
+}
+
+#contact-form, #reservation {
+  display:none;
+}
+
+#about-modal {
+  max-width: 800px;
+  height: 800px;
+}
+
+#modal-text1, #modal-text2 {
+
+ margin: 30px;
+}
+
+.modal-close {
+
+  border: 1px solid white;
+  width: fit-content;
+  margin: 30px auto 10px auto;
+  border-radius: 3px;
+  padding: 5px;
+  
+}
